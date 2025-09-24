@@ -1,2 +1,6 @@
-public class ThreatDetection {
+import java.lang.classfile.Signature;
+
+public record ThreatDetection(ThreatType threatType, Severity severity, String description, PacketInfo packetInfo,
+                              Signature signature) {
+
 }
