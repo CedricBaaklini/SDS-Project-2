@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="2ca6bd6a-073a-40ad-9b44-3bd892a1092b" timeout="30000" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <phpstan_by_interpreter asDefaultInterpreter="true" interpreter_id="2ca6bd6a-073a-40ad-9b44-3bd892a1092b" timeout="60000" />
+    </PhpStan_settings>
+  </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <psalm_fixer_by_interpreter asDefaultInterpreter="true" interpreter_id="2ca6bd6a-073a-40ad-9b44-3bd892a1092b" timeout="60000" />
+    </Psalm_settings>
+  </component>
+</project>
