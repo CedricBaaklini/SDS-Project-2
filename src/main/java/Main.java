@@ -150,7 +150,6 @@ public class Main {
 
         System.out.println("\n--- Simulating Port Scan Attack from File IPs ---");
 
-        Random random = new Random();
         String attackerIP = validIPs.getFirst();
         String targetIP = "192.168.1.100";
 
